@@ -6,4 +6,4 @@
 - Everyone can contribute at anytime
 - Everyone can ask questions at anytime
 - No presentations
-- No professors in this meeting
+- No professors in this meeting - we are all learning
