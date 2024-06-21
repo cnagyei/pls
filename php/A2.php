@@ -1,10 +1,13 @@
 <?php
 //A. Q1
-// input
-$n = 2;
-$f = pow((1 + (1/$n)), $n);
-// pow(index, power) e.g. pow(2, 5) OR 2 ** 5
+// INPUT
+$n = 3;
+$x = 2;
+
+// PROCESS
+$Q = 1 + (($n * $x) / (1 * $x)) + (($n * ($n - 1) * ($x ** 2)) / (2 * ($x ** 4)));
+
 
 //
-echo "Output is $f";
+echo "Output: Q = $Q";
 ?>
