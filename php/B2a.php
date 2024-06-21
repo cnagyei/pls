@@ -3,12 +3,12 @@
 // INPUT
 $minimum_age = 18;
 $age = (int)readline("Enter person's age: ");
-$ghanaian = (bool)readline("Enter true or false for nationality: ");
-$mentally_sane = (bool)readline("Enter true or false for mental sanity: ");
-$valid_id = (bool)readline("Enter true or false for ID: ");
+$is_a_ghanaian = strtolower(readline("Ghanaian? - enter yes or no: "));
+$is_mentally_sane = strtolower(readline("Mentally sane? - enter yes or no: "));
+$is_valid_id = strtolower(readline("Valid ID? - enter yes or no: "));
 
 // PROCESS
-if ($age >= $minimum_age && $ghanaian == true && $mentally_sane == true && $valid_id == true)
+if (($age >= $minimum_age) && $is_a_ghanaian == "yes" && $is_mentally_sane == "yes" && $is_valid_id == "yes")
 {
     echo "Person is ELIGIBLE TO VOTE";
 }
